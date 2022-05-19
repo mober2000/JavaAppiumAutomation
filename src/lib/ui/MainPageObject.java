@@ -123,7 +123,7 @@ public class MainPageObject {
         action
                 .press(PointOption.point(right_x, middle_y))
                 .waitAction(WaitOptions.waitOptions(Duration.ofMillis(300)))
-                .moveTo(PointOption.point(right_x, middle_y))
+                .moveTo(PointOption.point(x_left, middle_y))
                 .release()
                 .perform();
     }
